@@ -292,7 +292,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #212931;
+		color: #000000; /*changed from 212931*/
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
@@ -2509,7 +2509,7 @@ input, select, textarea {
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #212931;
+		color: #000000; *changed from #212931*/
 	}
 
 		input[type="checkbox"] + label:before,
@@ -2622,6 +2622,8 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			background-size: cover;
+			background-position: center center;
 		}
 
 			.image.fit:first-child {
@@ -2971,6 +2973,7 @@ input, select, textarea {
 		min-width:340px
 	}
 }
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -3328,7 +3331,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background: #1e252d;
+			background: #000000; /*changed background fade*/
 			content: '';
 			display: block;
 			height: 100%;
@@ -4597,7 +4600,7 @@ input, select, textarea {
 		#navPanelToggle.alt {
 			background-color: rgba(255, 255, 255, 0.875);
 			box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
-			color: #212931;
+			color: #000000; *changed from #212931*/
 		}
 
 			#navPanelToggle.alt:hover {
@@ -4713,7 +4716,7 @@ input, select, textarea {
 			}
 
 			#navPanel .close:hover {
-				color: #212931;
+				color: #000000; *changed from #212931*/
 			}
 
 			@media screen and (max-width: 736px) {
