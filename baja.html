@@ -30,8 +30,7 @@
                     <ul class="links">
                         <li><a href="index.html">Home</a></li>
                         <li class="active"><a href="projects.html">Projects<Menu></Menu></a></li>
-                        <li><a href="research.html">Research</a></li>
-                        <li><a href="contact.html">Contact Me</a></li
+                        <li><a href="contact.html">Contact Me</a></li>
                     </ul>
                     <ul class="icons">
                         <li><a href="https://www.linkedin.com/in/afnan-alhaj/" class="icon brands fa-linkedin"><span
@@ -238,17 +237,18 @@
                     to
                     create a custom coupler. The cost-effective and timely solution was to modify an existing Rhino
                     chromoly slip yoke with the 22 male to female coupling capability. The sleeves were turned down to
-                    create a coupler of a consistent diameter, and we were able to interface the rear differential and transfer case.
+                    create a coupler of a consistent diameter, and we were able to interface the rear differential and
+                    transfer case.
 
                     <div class="box alt">
                         <div class="row gtr-50 gtr-uniform">
-                            <div class="col-12-small"><span class="image fit"><img src="images/splineprofiles.jpg"
-                                alt="22 tooth female and male spline profiles"></span></div>
-                            <div class="col-12"><span class="image fit"><img src="images/slipyoke.png"
+                            <div class="col-6"><span class="image fit"><img src="images/splineprofiles.jpg"
+                                        alt="22 tooth female and male spline profiles"></span></div>
+                            <div class="col-6"><span class="image fit"><img src="images/slipyoke.png"
                                         alt="slip yoke"></span></div>
                             <div class="col-12"><span class="image fit"><img src="images/tctodiffcoupler.jpg"
                                         alt="custom coupler"></span></div>
-                                        
+
                         </div>
                         <h4>CV AXLES/HALF-SHAFTS</h4>
 
@@ -258,165 +258,311 @@
                             <h3>Analysis and Testing</h3>
 
                             <h4>FEA Analysis of Jackshaft (CVT side)</h4>
-                            <div class="col-12"><span class="image fit"><img src="images/CVTside.png" alt="CVT side"></td></span>
-                            <div class="table-wrapper">
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td>Failure Condition</td>
-                                            <td>Bending</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Justification</td>
-                                            <td>Yield failure due to overhung load of CVT acting on the jackshaft.</td>
-                                        </tr>
-                                        
-                                        <tr>
-                                            <td>Boundary Conditions: </td> 
-                                            <td><li>supported shaft via bearing near the fillet edge</li>
-                                                <li>overhung load of 315.1 lb applied at shaft</li></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Factor of Safety</td>
-                                            <td>2.1</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Confidence Level</td>
-                                            <td>Medium</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Reason for Confidence Level</td>
-                                            <td>Stock shaft size is specified by CVT manufacturer.</td>
-                                        </tr>
-                                      
-                                    </tbody>
-                                </table>
-                                </br>
+                            <div class="col-12"><span class="image fit"><img src="images/CVTside.png" alt="CVT side">
+                                    </td></span>
+                                <div class="table-wrapper">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>Failure Condition</td>
+                                                <td>Bending</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Justification</td>
+                                                <td>Yield failure due to overhung load of CVT acting on the jackshaft.
+                                                </td>
+                                            </tr>
 
-                            </div>
-                            <h4>FEA Analysis of Jackshaft (chain drive side)</h4>
-                            <div class="col-12"><span class="image fit"><img src="images/chainside.png" alt="chain drive side"></td></span>
-                            <div class="table-wrapper">
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td>Failure Condition</td>
-                                            <td>Bending</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Justification</td>
-                                            <td>Yield failure due to overhung load of chain drive acting on the jackshaft.</td>
-                                        </tr>
-                                        
-                                        <tr>
-                                            <td>Boundary Conditions: </td> 
-                                            <td><li>supported shaft via bearing near fillet edge</li>
-                                                <li>overhung load of 913.4 lb applied at shaft</li>
-                                            <li>alternating load between minimum and maximum load applied at shaft</li></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Factor of Safety</td>
-                                            <td>2.7</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Confidence Level</td>
-                                            <td>Medium</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Reason for Confidence Level</td>
-                                            <td>FOS determined using FEA and Goodman bending equations. FEA yields 2.85 FOS and calculations confirm this with value of 2.7.</td>
-                                        </tr>
-                                      
-                                    </tbody>
-                                </table>
-                                </br>
+                                            <tr>
+                                                <td>Boundary Conditions: </td>
+                                                <td>
+                                                    <li>supported shaft via bearing near the fillet edge</li>
+                                                    <li>overhung load of 315.1 lb applied at shaft</li>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Factor of Safety</td>
+                                                <td>2.1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Confidence Level</td>
+                                                <td>Medium</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Reason for Confidence Level</td>
+                                                <td>Stock shaft size is specified by CVT manufacturer.</td>
+                                            </tr>
 
-                            </div>
+                                        </tbody>
+                                    </table>
+                                    </br>
 
-                            <H4>TESTING AND TUNING THE CVT</H4>
-                            The CVT was identified to be the main source of efficiency loss due to its high variability
-                            given
-                            the
-                            spring preload and belt tension. Testing was performed by
-                            collecting RPM of the primary and secondary pulley of the CVT. RPM data was gathered using
-                            hall
-                            effect
-                            crankshaft position sensors mounted to the primary CVT pulley and the jackshaft (CVT
-                            secondary
-                            output).
-                            Changing the springs and fly weights would identify any suboptimal
-                            load issues in the drivetrain.</br>
-
-                            <div class="box alt">
-                                <div class="row gtr-50 gtr-uniform">
-                                    <div class="col-6"><span class="image fit"><img src="images/CVTtesting.jpg"
-                                                alt="cvt testing sensors"></span></div>
-                                    <div class="col-6"><span class="image fit"><img src="images/CVTplot.png"
-                                                alt="RPM data plot">Primary
-                                            vs. secondary CVT RPM values from testing. Spikes in
-                                            Primary vs. Secondary Data occurred during acceleration runs from a complete
-                                            stop.
-                                            Corresponding gear ratios over the same testing interval are shown in
-                                            red.</span>
-                                    </div>
                                 </div>
+                                <h4>FEA Analysis of Jackshaft (chain drive side)</h4>
+                                <div class="col-12"><span class="image fit"><img src="images/chainside.png"
+                                            alt="chain drive side"></td></span>
+                                    <div class="table-wrapper">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Failure Condition</td>
+                                                    <td>Bending</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Justification</td>
+                                                    <td>Yield failure due to overhung load of chain drive acting on the
+                                                        jackshaft.</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Boundary Conditions: </td>
+                                                    <td>
+                                                        <li>supported shaft via bearing near fillet edge</li>
+                                                        <li>overhung load of 913.4 lb applied at shaft</li>
+                                                        <li>alternating load between minimum and maximum load applied at
+                                                            shaft</li>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Factor of Safety</td>
+                                                    <td>2.7</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Confidence Level</td>
+                                                    <td>Medium</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Reason for Confidence Level</td>
+                                                    <td>FOS determined using FEA and Goodman bending equations. FEA
+                                                        yields 2.85 FOS and calculations confirm this with value of 2.7.
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                        </br>
+
+                                    </div>
+
+                                    <H4>TESTING AND TUNING THE CVT</H4>
+                                    The CVT was identified to be the main source of efficiency loss due to its high
+                                    variability
+                                    given
+                                    the
+                                    spring preload and belt tension. Testing was performed by
+                                    collecting RPM of the primary and secondary pulley of the CVT. RPM data was gathered
+                                    using
+                                    hall
+                                    effect
+                                    crankshaft position sensors mounted to the primary CVT pulley and the jackshaft (CVT
+                                    secondary
+                                    output).
+                                    Changing the springs and fly weights would identify any suboptimal
+                                    load issues in the drivetrain.</br>
+
+                                    <div class="box alt">
+                                        <div class="row gtr-50 gtr-uniform">
+                                            <div class="col-6"><span class="image fit"><img src="images/CVTtesting.jpg"
+                                                        alt="cvt testing sensors"></span></div>
+                                            <div class="col-6"><span class="image fit"><img src="images/CVTplot.png"
+                                                        alt="RPM data plot">Primary
+                                                    vs. secondary CVT RPM values from testing. Spikes in
+                                                    Primary vs. Secondary Data occurred during acceleration runs from a
+                                                    complete
+                                                    stop.
+                                                    Corresponding gear ratios over the same testing interval are shown
+                                                    in
+                                                    red.</span>
+                                            </div>
+                                        </div>
 
                         </section>
                         <section class="post">
-		
-                            <h3>ASSEMBLY PHOTOS</h3>
-                            
-                            <div class="box alt">
-                                <div class="row gtr-50 gtr-uniform">
-                                    <div class="col-12"><span class="image fit"><img src="images/carattrack.jpg"
-                                                alt="car at track">
-                                        </span></div>
-        
-                                    <div class="col-12"><span class="image fit"><img src="images/carattrack2.jpg"
-                                                alt="front view of car at track">
-                                        </span></div>
-        
-                                    <div class="col-12"><span class="image fit"><img src="images/carpainted.png"
-                                                alt="car on mud track"></span></div>
-                                    <div class="col-12"><span class="image fit"><img src="images/muddycar.png"
-                                                alt="practice for maneuverability course"></span></div>
-                                    <div class="col-12"><span class="image fit"><img src="images/assembly1.jpg"
-                                                alt="initial assembly subteam integration for fit and tolerance"></span></div>
-                                    <div class="col-12"><span class="image fit"><img src="images/exocar.jpg"
-                                                alt="pre-wheel assembly"></span></div>
-                                                <div class="col-12"><span class="image fit"><img src="images/steerrodmount.JPG"
-                                                    alt="steering rack front differential interference"></span></div>
-                                                    <div class="col-12"><span class="image fit"><img src="images/rearDTassembly.JPG"
-                                                        alt="pre-wheel assembly"></span></div>
-                                                        <div class="col-12"><span class="image fit"><img src="images/rearDTassembly.JPG"
-                                                            alt="pre-wheel assembly"></span></div>
-                                                            <div class="col-12"><span class="image fit"><img src="images/teamphoto.jpeg"
-                                                                alt="team photo"></span></div>
+                            <section id="PHOTOS">
+                                <div class="heading flex items-center pb-8">
+
+                                    <h3 class="font-bold uppercase text-sm leading-none">ASSEMBLY AND MANUFACTURING PHOTOS</h3>
                                 </div>
-                            
-                     
-                </section>
-                <section class="post">
-		
-                    <h3>HONORARY MENTIONS</h3>
-                Thank you to the entire staff at the University of Colorado Boulder Idea Forge and machine shop in Fleming; our director Peter Himpsel; machine shop coordinator Greg Potts; our industry director Dr. Daria Kotys-Schwartz;  manufacturing engineer Chase Logsdon; mechanical lab engineer Shirley Chessman; my teammates Nick Gunter, Benjamin Hanpeter, Clement Tan, Alexander Smith, Robbie Giannella, Kelton Collins, Ryan Weatherbee, Arthur Caio Gajdys, Jacob Hunt, Tristan Briggler, Alex Tilmes; and a special thanks to our sponsors at Stolle Machinery, Colorado WaterJet Company, Earle M. Jorgensen Company, ME Engineers, Napa University Auto Parts, SKF, PowerSports Nation, and McGuckin Hardware for making this possible. 
-                <!-- Copyright -->
-                <div id="copyright">
-                    <ul>
-                        <li>Afnangineer</li>
-                    </ul>
-                </div>
+                                <div class="Projects-module--container--1pgCq">
+                                    <div class="Projects-module--project---BrXS wow fadeIn"
+                                        style="animation-delay:300ms">
+
+                                        <div data-gatsby-image-wrapper=""
+                                            class="gatsby-image-wrapper gatsby-image-wrapper-constrained absolute w-full h-full object-cover rounded-lg hover:opacity-50 duration-200">
+                                            <div style="max-width:400px;display:block">
+                                                <img alt="" role="presentation" aria-hidden="true"
+                                                    src="images/muddycar.png"
+                                                    style="max-width:100%;display:block;position:static" />
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="Projects-module--project---BrXS wow fadeIn"
+                                        style="animation-delay:600ms">
+
+
+                                        <div data-gatsby-image-wrapper=""
+                                            class="gatsby-image-wrapper gatsby-image-wrapper-constrained absolute w-full h-full object-cover rounded-lg hover:opacity-50 duration-200">
+                                            <div style="max-width:400px;display:block">
+                                                <img alt="" role="presentation" aria-hidden="true"
+                                                    src="images/carpainted.png"
+                                                    style="max-width:100%;display:block;position:static" />
+                                            </div>
+
+                                        </div>
+                                        </div>
+
+
+                                        <div class="Projects-module--project---BrXS wow fadeIn"
+                                            style="animation-delay:600ms">
+
+
+                                            <div data-gatsby-image-wrapper=""
+                                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained absolute w-full h-full object-cover rounded-lg hover:opacity-50 duration-200">
+                                                <div style="max-width:400px;display:block">
+                                                    <img alt="" role="presentation" aria-hidden="true"
+                                                        src="images/assembly1.jpg"
+                                                        style="max-width:100%;display:block;position:static" />
+                                                </div>
+
+                                            </div>
+                                            </div>
+                                            <div class="Projects-module--project---BrXS wow fadeIn"
+                                                style="animation-delay:600ms">
+
+
+                                                <div data-gatsby-image-wrapper=""
+                                                    class="gatsby-image-wrapper gatsby-image-wrapper-constrained absolute w-full h-full object-cover rounded-lg hover:opacity-50 duration-200">
+                                                    <div style="max-width:400px;display:block">
+                                                        <img alt="" role="presentation" aria-hidden="true"
+                                                            src="images/exocar.jpg"
+                                                            style="max-width:100%;display:block;position:static" />
+                                                    </div>
+
+                                                </div>
+                                                </div>
+                                                <div class="Projects-module--project---BrXS wow fadeIn"
+                                                    style="animation-delay:600ms">
+
+
+                                                    <div data-gatsby-image-wrapper=""
+                                                        class="gatsby-image-wrapper gatsby-image-wrapper-constrained absolute w-full h-full object-cover rounded-lg hover:opacity-50 duration-200">
+                                                        <div style="max-width:400px;display:block">
+                                                            <img alt="" role="presentation" aria-hidden="true"
+                                                                src="images/steerrodmount.JPG"
+                                                                style="max-width:100%;display:block;position:static" />
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="Projects-module--project---BrXS wow fadeIn"
+                                                    style="animation-delay:600ms">
+
+
+                                                    <div data-gatsby-image-wrapper=""
+                                                        class="gatsby-image-wrapper gatsby-image-wrapper-constrained absolute w-full h-full object-cover rounded-lg hover:opacity-50 duration-200">
+                                                        <div style="max-width:400px;display:block">
+                                                            <img alt="" role="presentation" aria-hidden="true"
+                                                                src="images/rearDTassembly.JPG"
+                                                                style="max-width:100%;display:block;position:static" />
+
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class="Projects-module--project---BrXS wow fadeIn"
+                                                        style="animation-delay:600ms">
+
+
+                                                        <div data-gatsby-image-wrapper=""
+                                                            class="gatsby-image-wrapper gatsby-image-wrapper-constrained absolute w-full h-full object-cover rounded-lg hover:opacity-50 duration-200">
+                                                            <div style="max-width:400px;display:block">
+                                                                <img alt="" role="presentation" aria-hidden="true"
+                                                                    src="images/carattrack.jpg"
+                                                                    style="max-width:100%;display:block;position:static" />
+
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                        <div class="Projects-module--project---BrXS wow fadeIn"
+                                                            style="animation-delay:600ms">
+
+
+                                                            <div data-gatsby-image-wrapper=""
+                                                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained absolute w-full h-full object-cover rounded-lg hover:opacity-50 duration-200">
+                                                                <div style="max-width:400px;display:block">
+                                                                    <img alt="" role="presentation" aria-hidden="true"
+                                                                        src="images/carattrack2.jpg"
+                                                                        style="max-width:100%;display:block;position:static" />
+
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                            <div class="Projects-module--project---BrXS wow fadeIn"
+                                                                style="animation-delay:600ms">
+
+
+                                                                <div data-gatsby-image-wrapper=""
+                                                                    class="gatsby-image-wrapper gatsby-image-wrapper-constrained absolute w-full h-full object-cover rounded-lg hover:opacity-50 duration-200">
+                                                                    <div style="max-width:400px;display:block">
+                                                                        <img alt="" role="presentation"
+                                                                            aria-hidden="true" src="images/muddycar.png"
+                                                                            style="max-width:100%;display:block;position:static" />
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="flex mt-2">
+                                                                <a href="" target="_blank" rel="noopener noreferrer"
+                                                                    class="px-2 mr-2 hover:text-primary-500">
+
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="flex mt-2">
+                                                            <a href="" target="_blank" rel="noopener noreferrer"
+                                                                class="px-2 mr-2 hover:text-primary-500">
+
+                                                            </a>
+                                                        </div>
 
 
 
-                <!-- Scripts -->
-                <script src="assets/js/jquery.min.js"></script>
-                <script src="assets/js/jquery.scrollex.min.js"></script>
-                <script src="assets/js/jquery.scrolly.min.js"></script>
-                <script src="assets/js/browser.min.js"></script>
-                <script src="assets/js/breakpoints.min.js"></script>
-                <script src="assets/js/util.js"></script>
-                <script src="assets/js/main.js"></script>
+
+                            </section>
+                            <section class="post">
+
+                                <h3>HONORARY MENTIONS</h3>
+                                Thank you to the entire staff at the University of Colorado Boulder Idea Forge and
+                                machine shop in Fleming; our director Peter Himpsel; machine shop coordinator Greg
+                                Potts; our industry director Dr. Daria Kotys-Schwartz; manufacturing engineer Chase
+                                Logsdon; mechanical lab engineer Shirley Chessman; my teammates Nick Gunter, Benjamin
+                                Hanpeter, Clement Tan, Alexander Smith, Robbie Giannella, Kelton Collins, Ryan
+                                Weatherbee, Arthur Caio Gajdys, Jacob Hunt, Tristan Briggler, Alex Tilmes; and a special
+                                thanks to our sponsors at Stolle Machinery, Colorado WaterJet Company, Earle M.
+                                Jorgensen Company, ME Engineers, Napa University Auto Parts, SKF, PowerSports Nation,
+                                and McGuckin Hardware for making this possible.
+                                <!-- Copyright -->
+                                <div id="copyright">
+                                    <ul>
+                                        <li>Afnangineer</li>
+                                    </ul>
+                                </div>
+
+
+
+                                <!-- Scripts -->
+                                <script src="assets/js/jquery.min.js"></script>
+                                <script src="assets/js/jquery.scrollex.min.js"></script>
+                                <script src="assets/js/jquery.scrolly.min.js"></script>
+                                <script src="assets/js/browser.min.js"></script>
+                                <script src="assets/js/breakpoints.min.js"></script>
+                                <script src="assets/js/util.js"></script>
+                                <script src="assets/js/main.js"></script>
 
         </body>
 
